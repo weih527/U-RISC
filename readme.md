@@ -42,3 +42,33 @@ Final leaderboard: **4th (VIDAR)**
 
 
 
+## Data
+
+Download official data from [BaiduYun](https://pan.baidu.com/s/1SNNSMAvIi1KjqydHA6kkgg) (Access code: weih)
+
+
+
+## Models
+
+Download our trained models from [BaiduYun](https://pan.baidu.com/s/1FvsL_OXkpINPHNfFL9lWEA) (Access code: weih)
+
+And then unzip the 'models5.zip' file
+
+
+
+## Installation
+
+If you have a [Docker](https://www.docker.com/) environment, we strongly recommend you to pull our image as follows,
+
+```shell
+docker pull renwu527/auto-emseg:v4.1
+```
+
+
+
+## Run
+
+```shell
+python run.py -in=/DATA-PATH
+```
+
